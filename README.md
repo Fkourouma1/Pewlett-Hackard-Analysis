@@ -1,0 +1,2 @@
+# Pewlett-Hackard-Analysis
+In this project, we are helping a company named Pewlett Hackard, how to set data that offer retirement package for those who meet certain criteria and which position need to be fulled in in the future. We will be working with a few CSV files, visualize and analyze the data in the table. This project will also allow us to determine the relationship between the different tables by using PgAdmin and Postgre SQL.
