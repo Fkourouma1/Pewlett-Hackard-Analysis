@@ -14,9 +14,9 @@ In this project, we are helping a company named Pewlett Hackard, how to set data
 ## Summary
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 After our analysis, we realize that 6 roles need to be filled . The total count of retiring employees is 72,458.(see details in the cvs images attached.) 
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 The total mentorship_eligibility employees is 1,549 while the the current employees total is 33,118. We think that the number of coach is very small compare to the total of current employees. 
 
 ### Provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
   1- we determined the count of retiring employees based on the department name. Our data shows that the Development and Sales departments has highest number of retiring employees.We created a table name retirint_dept_count by joining current_emp, departments and dept_emp tables. Then GROUP BY dept_no and dept_name.
-  2- 
+  2- We also created a table called "retiring_salaries". We used the DISTINCT ON function to make sure no name is being duplicated. Next we joined the employees table as well as titles and the salaries. This analysis to allow the company to visualize the salary of the current retiring employees based on their titles and were born from '1965-01-01' to '1965-12-31'.
